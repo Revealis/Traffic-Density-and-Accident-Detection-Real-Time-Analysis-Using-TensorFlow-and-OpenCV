@@ -109,7 +109,7 @@ print("Potential Accident Anomalies:")
 print(anomalies)
 
 
-print("\nBASİT TRAFİK YOĞUNLUĞU RAPORU\n")
+print("\nSIMPLE TRAFFIC CONDENSATION REPORT\n")
 for index, row in anomalies.iterrows():
     print(f"{index} - {row['Pedestrian_Delta']} pedestrian increase and {row['Vehicle_Delta']} vehicle increase was detected")
 
